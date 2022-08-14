@@ -1,0 +1,175 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.jobs
+{
+    padding: 1.3rem;
+    margin: .1rem;
+}
+
+.job
+{
+    color: #000000;
+    font-size: 0.9rem;
+}
+
+.jobs1
+{
+    padding-top: 1.3rem;
+    padding-right: 1.3rem;
+    padding-left: 1.3rem;
+}
+
+
+h6{
+    font-size: 12px;
+}
+
+ .rating__star {
+    cursor: pointer;
+ }
+
+ 
+ .circlesss {
+    background-color: #68a6cc;
+    border-radius: 40px;
+    margin-left: 10px;
+}
+
+.circle-innersss {
+  color: rgb(217, 217, 217);
+  display: table-cell;
+  vertical-align: middle; 
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  height: 25px;
+  width: 25px;  
+  font-size: 12px;
+}
+
+.sortable-chosen{
+    box-shadow: 8px 8px 32px #E1E1E1;
+}
+
+.sortable-drag{
+    opacity: 0;
+}
+
+/* STARTING HERE */
+
+.topcard{
+    padding: .6rem;
+    width: 100%;
+}
+
+.start1{
+    display: flex;
+    width: auto;
+}
+
+.texteditor{
+    color: rgb(36, 21, 113);
+    font-size: 13px;
+}
+
+.subtexteditor{
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.reqnumber{
+    float: right;
+    font-size: 12px;
+}
+
+.alldowncards{
+    margin-top: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px; padding: 0px;
+}
+
+.footdesign{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menudr{
+    cursor: pointer;
+}
+
+.vjdstyle{
+    display: none;
+}
+
+.addsmall1{
+    display: none;
+}
+
+
+/* SIDEBAR */
+
+#sidebar {
+    background-color: #0a3456;
+    width: 3.5rem;
+    margin-left: 6px;
+    margin-top: 20px;
+    border-left: 5px solid rgb(126, 17, 17);
+    height: 950px;
+    
+}
+#sidebar a{
+
+    color: aliceblue;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    
+    
+}
+.dot{
+display: flex; 
+margin-top: 10px;   
+}
+.dot1{
+    display: flex; 
+    margin-left: -3px;   
+    }
+
+/* SIDEBAR */
+
+
+/* MOB RESPOSE */
+
+@media screen and (max-width: 800px) {
+    .vjdstyle{
+        min-width: 100%;
+        margin-top: .5rem;
+        display: none;
+    }
+    .fullstack{
+        min-width: 100%;
+    }
+    .vjdstyle1{
+        width: 230px;
+        display: none;
+        margin-left: -1rem;
+        margin-top: 5px;
+        
+    }
+    .addsmall{
+        display: none;
+    }
+    .addsmall1{
+        display: block;
+        display: flex;
+        min-width: 100%;
+    }
+
+    .start1{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
